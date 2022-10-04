@@ -47,7 +47,7 @@ public class Main {
 
         //System.out.println(First.Pirived("Pirived!"));
         //hello("Vasche Piryved!");
-        //mult(15,24,16); //55
+        mult(15,24,16); //55
         //add("Karasho: ", 10,20,30);
         //System.out.println(daytime(14));
         //System.out.println(sum1(1.4,2.5));
@@ -70,6 +70,8 @@ public class Main {
         }
 
          */
+
+        /*
         try
         {
             System.out.println("Type your number, please.");
@@ -90,7 +92,7 @@ public class Main {
             System.out.println(ex.getMessage());
             System.out.println("Досвидос!");
         }
-
+        */
 
     }
 
@@ -105,9 +107,11 @@ public class Main {
             for(int i:nums4)
             {
                 result *=i;
-                System.out.println(result);
+
             }
+            System.out.println(result);
         }
+
 
         static void add(String message, int ...nums5)
         {
@@ -116,8 +120,9 @@ public class Main {
             for(int t:nums5)
             {
                 result +=t;
-                System.out.println(result);
+
             }
+            System.out.println(result);
         }
 
         static String daytime(int hour)
