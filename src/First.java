@@ -1,8 +1,10 @@
 public class First {
+    static int Add(int x, int y) {
+        return x + y;
 
-    static int Add(int x, int y){
+    }
+    static String Pirived(String text1){
 
-        return x+y;
-
+        return text1;
     }
 }
