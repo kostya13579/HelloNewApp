@@ -93,6 +93,7 @@ public class Main {
             System.out.println("Досвидос!");
         }
         */
+        System.out.println(Second.Sdrasti("Vasya, pireved!"));
 
     }
 
