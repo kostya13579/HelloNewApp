@@ -1,5 +1,4 @@
 import org.w3c.dom.TypeInfo;
-
 import java.util.Scanner;
 
 public class Main {
@@ -47,7 +46,7 @@ public class Main {
 
         //System.out.println(First.Pirived("Pirived!"));
         //hello("Vasche Piryved!");
-        mult(15,24,16); //55
+        //mult(15,24,16); //55
         //add("Karasho: ", 10,20,30);
         //System.out.println(daytime(14));
         //System.out.println(sum1(1.4,2.5));
@@ -93,8 +92,38 @@ public class Main {
             System.out.println("Досвидос!");
         }
         */
-        System.out.println(Second.Sdrasti("Vasya, pireved!"));
+        /*Person tom=new Person();
+        tom.displayInfo();
+        tom.name="Tom";
+        tom.age=34;
+        tom.displayInfo();
+        Person mo=new Person("Mo");
+        mo.displayInfo();
+        Person bo=new Person("Bo", 25);
+        bo.displayInfo();
+        changeName(bo);
+        System.out.println(bo.getName());
+        bo.displayInfo();
+        bo.name="Bo";
+        bo.displayInfo();
+        Employee sam=new Employee("Sam","BigToy");
+        System.out.println(sam.getName());
+        sam.displayInfo();
+        sam.age=38;
+        sam.displayInfo();
 
+         */
+
+        Employee rick=new Employee("Rick",42, "MiddleCompany");
+        rick.displayInfo();
+
+
+        //System.out.println(Second.Sdrasti("Vasya, pireved!"));
+
+    }
+    static void changeName(Person p)
+    {
+        p.setName("Bibigon");
     }
 
         static void hello(String text1)
